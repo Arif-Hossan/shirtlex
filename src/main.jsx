@@ -6,6 +6,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Main from './components/Layout/Main.jsx'
 import Order from './components/Order/Order.jsx'
 import Home from './components/Home/Home.jsx'
+import Grandpa from './components/Grandpa/Grandpa.jsx'
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
       {
         path:'/order',
         element:<Order></Order>
+      },
+      {
+        path:'/grandpa',
+        element:<Grandpa></Grandpa>
       }
     ]
   }
